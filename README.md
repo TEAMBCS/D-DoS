@@ -107,13 +107,6 @@ Follow the prompts:
 * `Enyer Rps:` requests per second, e.g. `10`
 * `USE Verbose (y/n):` `y` or `n`
 
-### Non-interactive one-liner
-
-Pipe answers to run without typing:
-
-```bash
-printf "https://testphp.vulnweb.com/login.php\n443\n60\n10\ny\n" | python3 DDOST.py
-```
 
 ### Stop early
 
