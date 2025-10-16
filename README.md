@@ -1,5 +1,14 @@
+<p align="center">
+  <img src="https://i.postimg.cc/htzxw4kF/D-DoS.jpg" width="600"/>
+</p>
 
-# HTTPS Flood V1 — DDOST
+<h1 align="center"> HTTPS Flood DDoS Tool</h1>
+
+<p align="center">
+  🚀 Powered by <b> BANGLADESH CYBER SQUAD </b><br>
+  📆 Year: 2025
+</p>
+# HTTPS Flood 
 
 **A fast, mobile-aware HTTP/HTTPS flood tool (for authorized testing only)**
 
@@ -68,19 +77,9 @@ urllib3
 
 ```bash
 sudo apt update && sudo apt install -y python3 python3-pip git
-```
-
-2. Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/TEAMBCS/DDoS-.git
-cd ADI_DDOS
+git clone https://github.com/TEAMBCS/D-DoS.git
+cd D-DOS
 pip3 install -r requirements.txt
-```
-
-3. Run the tool:
-
-```bash
 python3 ddos-l.py
 ```
 
@@ -91,19 +90,9 @@ python3 ddos-l.py
 ```bash
 pkg update -y && pkg upgrade -y
 pkg install -y python git
-```
-
-2. Clone and install:
-
-```bash
-git clone https://github.com/TEAMBCS/DDoS-.git
-cd ADI_DDOS
+git clone https://github.com/TEAMBCS/D-DoS.git
+cd D-DOS
 pip install -r requirements.txt
-```
-
-3. Run:
-
-```bash
 python ddos-t.py
 ```
 
