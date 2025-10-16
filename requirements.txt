@@ -1,0 +1,6 @@
+requests
+faker
+rich
+termcolor
+colorama
+urllib3
