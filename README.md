@@ -56,7 +56,7 @@ Only use this tool on targets you own or where you have **explicit written autho
 ```bash
 sudo apt update && sudo apt install -y python3 python3-pip git
 git clone https://github.com/TEAMBCS/D-DoS.git
-cd D-DOS
+cd D-DoS
 chmod +x *
 pip3 install -r requirements.txt
 python3 ddos-l.py
@@ -70,7 +70,7 @@ python3 ddos-l.py
 pkg update -y && pkg upgrade -y
 pkg install -y python git
 git clone https://github.com/TEAMBCS/D-DoS.git
-cd D-DOS
+cd D-DoS
 chmod +x *
 pip install -r requirements.txt
 python ddos-t.py
