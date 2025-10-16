@@ -9,7 +9,7 @@
   📆 Year: 2025
 </p>
 
-# HTTPS Flood [bold yellow]Info
+<h1 align="center"> HTTPS Flood Info </h1>
 
 **A fast, mobile-aware HTTP/HTTPS flood tool (for authorized testing only)**
 
@@ -35,42 +35,16 @@ Only use this tool on targets you own or where you have **explicit written autho
 * Minimal external dependencies.
 
 ---
-
-## Requirements
+<h1 align="center"> Requirements </h1>
 
 * Python 3.8+ (3.10+ recommended)
 * ~50 MB free disk space and working network/DNS
 * The following Python packages:
 
-```
-requests
-faker
-rich
-termcolor
-colorama
-urllib3
-```
-
-Install with:
-
-```bash
-pip install -r requirements.txt
-```
-
-`requirements.txt` contents:
-
-```
-requests
-faker
-rich
-termcolor
-colorama
-urllib3
-```
 
 ---
 
-## Install & run
+<h1 align="center"> Install & run </h1>
 
 ### On Kali Linux
 
@@ -101,7 +75,7 @@ python ddos-t.py
 
 ---
 
-## How it works (quick)
+<h1 align="center"> How it works (quick) </h1>
 
 When you run the script:
 
@@ -143,8 +117,7 @@ printf "https://testphp.vulnweb.com/login.php\n443\n60\n10\ny\n" | python3 DDOST
 Press `Ctrl+C`. The script handles `SIGINT` and attempts a graceful shutdown.
 
 ---
-
-## System use chart (component breakdown)
+<h1 align="center"> System use chart (component breakdown)</h1>
 
 | Component           | What it does                               | Why it matters                                        |
 | ------------------- | ------------------------------------------ | ----------------------------------------------------- |
@@ -160,7 +133,7 @@ Press `Ctrl+C`. The script handles `SIGINT` and attempts a graceful shutdown.
 
 ---
 
-## Example output (short)
+<h1 align="center"> Example output (short) </h1>
 
 ```
 [*] Starting flood on https://testphp.vulnweb.com/login.php for 60 seconds at 10 RPS
@@ -181,6 +154,7 @@ Status 503: 2
 ```
 
 ---
+<h1 align="center"> SOMETHINGS ABOUT TOOL </h1>
 
 ## Recommended safe defaults
 
@@ -199,19 +173,3 @@ Status 503: 2
 * **Missing modules** — reinstall with `pip install -r requirements.txt`.
 
 ---
-
-## Contributing
-
-Improvements are welcome. If you publish to GitHub, please:
-
-* Add unit tests for new features.
-* Keep any potentially intrusive features opt-in and documented.
-* Add a LICENSE file (MIT or Apache 2.0 recommended).
-
-Repo: `https://github.com/ADIRTTA/ADI_DDOS.git`
-
----
-
-## License & legal
-
-No license file is included by default. If you plan to publish this repository publicly, add a license that fits your goals. This README and the tool are provided for educational and authorized security testing only.
